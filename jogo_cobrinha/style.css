@@ -1,0 +1,56 @@
+/* Estilo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Container do jogo */
+.game-container {
+    position: relative;
+}
+
+/* Canvas onde o jogo será desenhado */
+#gameCanvas {
+    border: 2px solid #000;
+    background-color: #222;
+}
+
+/* Tela de Game Over */
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+/* Classe para mostrar o game over */
+.hidden {
+    display: none;
+}
+
+/* Botão de reiniciar */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
